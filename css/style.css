@@ -7,6 +7,18 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+
+ :root {
+
+ }
+ 
+ h1 svg {
+  height: 10vh;
+  display: inline-flex;
+  align-items: center;
+ }
+ 
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -17,6 +29,25 @@ html {
   line-height: 1.4;
 }
 
+
+nav ul {
+  display: flex;
+  gap: 1vw;
+  list-style-type: none;
+}
+
+
+#about {
+  min-height: 100vh;
+}
+
+#main {
+  min-height: 100vh;
+}
+
+#reservation {
+  min-height: 100vh;
+}
 
 /*
  * A better looking default horizontal rule
@@ -156,9 +187,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -169,6 +200,7 @@ textarea {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -229,6 +261,8 @@ textarea {
   }
 }
 
-p {
-  color: blue;
+.menu {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
