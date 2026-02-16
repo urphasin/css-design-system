@@ -199,6 +199,6 @@ footer {
 
 #menu td,
 #menu th {
-  padding: 15px;            /* replaces cellpadding="15" */
-  border: 1px solid #111;   /* cell borders */
+  padding: 15px;           
+  border: 1px solid #111; 
 }
