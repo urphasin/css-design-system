@@ -184,12 +184,21 @@ main h2 {
   text-align: center;
 }
 
-.menu {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-}
+
 footer {
   background-color: plum;
   margin-block: 0;
+}
+
+#menu {
+  width: 100%;              
+  margin: 0 auto;          
+  border-collapse: collapse; 
+  border: 1px solid #111;   
+}
+
+#menu td,
+#menu th {
+  padding: 15px;            /* replaces cellpadding="15" */
+  border: 1px solid #111;   /* cell borders */
 }
