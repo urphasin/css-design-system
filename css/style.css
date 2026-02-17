@@ -185,11 +185,41 @@ main h2 {
 }
 
 
+
+
+
+
+
+
+.footer {
+  display: flex;
+  border: 1px solid salmon;
+  padding: 10px;
+  align-items: center;
+}
+
+.box {
+  height: 700px;
+  width: auto;
+  background: black;
+  color: #fff;
+}
+
+
 footer {
   background-color: plum;
   margin-block: 0;
-  height: 20vh;
+  height: clamp(260px, 30vh, 500px);
 }
+
+
+
+
+
+
+
+
+
 
 #menu {
   width: 100%;
