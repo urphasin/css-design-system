@@ -188,17 +188,18 @@ main h2 {
 footer {
   background-color: plum;
   margin-block: 0;
+  height: 20vh;
 }
 
 #menu {
-  width: 100%;              
-  margin: 0 auto;          
-  border-collapse: collapse; 
-  border: 1px solid #111;   
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #111;
 }
 
 #menu td,
 #menu th {
-  padding: 15px;           
-  border: 1px solid #111; 
+  padding: 15px;
+  border: 1px solid #111;
 }
